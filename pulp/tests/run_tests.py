@@ -4,7 +4,7 @@ from pulp.tests import test_pulp, test_examples
 
 
 def pulpTestAll(test_docs=False):
-    runner = unittest.TextTestRunner()
+    runner = unittest.TextTestRunner(verbosity=2)
     suite_all = get_test_suite(test_docs)
     # we run all tests at the same time
     ret = runner.run(suite_all)

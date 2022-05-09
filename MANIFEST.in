@@ -11,7 +11,6 @@ include pulp/*.cfg.win
 include pulp/*.cfg.osx
 include pulp/*.cfg.buildout
 include pulp/*.py
-include pulp/solverdir/*
 include pulp/tests/*.py
 include pulp/apis/*.py
 #include pulp-or/doc/*.pdf
